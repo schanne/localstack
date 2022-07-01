@@ -110,7 +110,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-lambda</artifactId>
-            <version>1.11.505</version>
+            <version>1.12.252</version>
         </dependency>
         <dependency>
             <groupId>com.amazonaws</groupId>
