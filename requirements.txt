@@ -11,7 +11,7 @@ airspeed==0.5.10
 # Use our "ext" version until this bug is fixed: https://github.com/awslabs/amazon-kinesis-client-python/issues/99
 amazon_kclpy-ext==1.5.1
 # amazon-kclpy==1.5.1
-awscli>=1.14.18
+awscli>=1.27.90
 boto>=2.49.0
 boto3>=1.9.71                  #basic-lib
 botocore>=1.12.13
@@ -32,14 +32,18 @@ localstack-client>=0.12        #basic-lib
 moto-ext>=1.3.14.1
 nose>=1.3.7
 nose-timer>=0.7.5
-psutil==5.4.8
+psutil==5.6.7
 pympler>=0.6
 pyopenssl==17.5.0
 python-coveralls>=2.9.1
-pyyaml>=3.13,<=5.1
-requests>=2.20.0
+pyyaml>=5.4,<=5.1
+requests>=2.31.0
 requests-aws4auth==0.9
 six>=1.12.0                    #basic-lib
 subprocess32==3.5.4            #basic-lib
 xmltodict>=0.11.0
 # yappi==1.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=41.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
